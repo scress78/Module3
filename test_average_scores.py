@@ -1,5 +1,6 @@
 from format_output import average_scores as avg
 import unittest
+import unittest.mock as mock
 
 
 class MyTestCase(unittest.TestCase):
@@ -10,3 +11,4 @@ class MyTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
